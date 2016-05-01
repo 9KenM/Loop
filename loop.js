@@ -69,9 +69,9 @@ Core.add(function(){
 		id: 'loop',
 		start: start,
 		stop: stop,
-    	toggle: function(){
-    		running ? stop() : start();
-    	},
+		toggle: function(){
+			running ? stop() : start();
+		},
 	};
 
 });
